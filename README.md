@@ -1,8 +1,8 @@
 # RedactAnon ⚡
 
-![RedactAnon](assets/redactnon.png)
+[![CI](https://github.com/supracarol/redactanon/actions/workflows/ci.yml/badge.svg)](https://github.com/supracarol/redactanon/actions/workflows/ci.yml)
 
-![CI](https://github.com/supracarol/redactanon/actions/workflows/ci.yml/badge.svg?branch=main)
+![RedactAnon](assets/redactnon.png)
 
 **Safely share files with LLMs and search engines by automatically removing personal data while keeping it easily restorable.**
 
