@@ -1,0 +1,25 @@
+# Bandit configuration for RedactAnon project
+# https://bandit.readthedocs.io/en/latest/config.html
+
+# Skip specific test IDs
+skips:
+  - B101  # skip test for assert statements (common in tests)
+  - B311  # skip test for random generation (used in data generation)
+
+# Exclude specific files/directories
+exclude_dirs:
+  - .git
+  - .venv
+  - venv
+  - build
+  - dist
+  - tests
+
+# Set severity levels
+severity: medium
+confidence: medium
+
+# Per-test overrides
+any_other_function_with_shell_equals_true:
+  severity: low
+  confidence: low
